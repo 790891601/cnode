@@ -1,0 +1,17 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.App .main {
+  flex:  1;
+}
+
+#root, .App {
+  height: 100%;
+}
+
+.acrile img {
+  max-width: 260px;
+  width: 100%;
+}

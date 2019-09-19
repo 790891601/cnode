@@ -1,0 +1,42 @@
+.mainWrap {
+  width: 80%;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 980px) {
+  .mainWrap {
+    width: 100%;
+  }
+}
+
+.mainWrap span {
+  margin: 0 5px;
+}
+
+.mainWrap img {
+  max-width: 100%;
+}
+
+.mainWrap .ant-card-head-title h3 {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.mainWrap .ant-list-item-meta-avatar {
+  margin-right: 5px;
+}
+
+.mainWrap .ant-list-item-extra {
+  margin: 5px;
+}
+
+.mainWrap .ant-list-item-meta {
+  display: flex;
+  align-items: center;
+}
+
+.mainWrap .ant-list-item-meta-title {
+  margin-bottom: 0;
+}
+

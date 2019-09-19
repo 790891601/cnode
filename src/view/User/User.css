@@ -1,0 +1,26 @@
+.avatar {
+  text-align: center;
+}
+
+.user-text {
+  display: flex; 
+  padding: 20px 0 0;
+}
+
+.user-text span {
+  flex: 1;
+  text-align: center;
+}
+
+.user {
+  padding: 0 15px 0 10px;
+}
+
+@media screen and (max-width: 980px) {
+  .user-text {
+    flex-direction: column;
+  }
+  .user-text span {
+    flex: 0;
+  }
+}

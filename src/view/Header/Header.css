@@ -1,0 +1,48 @@
+/* 头部样式 */
+.header {
+  padding: 0;
+  height: 55px;
+  line-height: 10px;
+}
+.header ul {
+  background-color: #001529;
+  border-bottom: 0;
+  line-height: 54px;
+}
+
+/* 居中样式 */
+.center {
+  width: 80%;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 980px) {
+  .center {
+    width: 100%;
+  }
+}
+
+/* 标题 */
+.title {
+  text-align: center;
+}
+
+.title h2 {
+  padding-top: 22px;
+  color: white;
+}
+
+.dropbar {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+}
+
+.sm-menu a, .submenu .ant-menu-item a {
+  color: white;
+}
+
+.submenu .ant-menu-item.ant-menu-item-selected a {
+  color: #1890ff;
+}
